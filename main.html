@@ -17,9 +17,14 @@
 
     <nav class="l-nav">
       <ul class="c-nav">
-        <li class="c-nav__item"><a class="c-href" href="#">Nav 1</a></li>
+        <li class="c-nav__item">
+          <a class="c-href" href="./main.html">Main</a>
+        </li>
+        <li class="c-nav__item">
+          <a class="c-href" href="./courses_list.html">Courses</a>
+        </li>
         <li class="c-nav__item"><a class="c-href" href="#">Nav 2</a></li>
-        <li class="c-nav__item"><a class="c-href" href="#">Nav 3</a></li>
+        <li class="c-nav__item" onclick="swapImage()"><span class="c-href">Some magic</span></li>
       </ul>
     </nav>
 
@@ -27,7 +32,7 @@
 
     <article class="c-content">
     <div class="c-content__img">
-      <img src="http://placehold.it/250x250" alt="Placeholder">
+      <img class="js-img" src="http://placehold.it/250x250" alt="Placeholder">
     </div>
     <h2 class="c-title">20 new HTML tricks</h2>
     <div class="c-content__text">
@@ -42,7 +47,7 @@
 
     <article class="c-content">
       <div class="c-content__img">
-        <img src="http://placehold.it/250x250" alt="Placeholder">
+        <img class="js-img" src="http://placehold.it/250x250" alt="Placeholder">
       </div>
       <h2 class="c-title">HTTP/3: bytes, QUIC and others</h2>
       <div class="c-content__text">
@@ -56,7 +61,7 @@
 
     <article class="c-content">
       <div class="c-content__img">
-        <img src="http://placehold.it/250x250" alt="Placeholder">
+        <img class="js-img" src="http://placehold.it/250x250" alt="Placeholder">
       </div>
       <h2 class="c-title">Meet our team</h2>
       <div class="c-content__text">
@@ -85,6 +90,7 @@
     </footer>
 </div>
 
+<script src="assets/js/main.js?201907090023" type="text/javascript"></script>
 </body>
 
 </html>
